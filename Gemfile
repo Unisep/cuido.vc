@@ -13,11 +13,11 @@ gem 'turbolinks'
 gem 'responders'
 gem 'rack-cors', require: 'rack/cors'
 gem 'active_model_serializers', '~> 0.10.0'
-gem 'jbuilder', '~> 2.0'
-gem 'sdoc', '~> 0.4.0', group: :doc
+gem 'devise'
 
 group :development, :test do
   gem 'byebug'
+  gem 'pry-rails'
 end
 
 group :production do
